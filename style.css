@@ -4,18 +4,25 @@ body {
   font-family: sans-serif;
 }
 
+/*firstBlock*/
+
 .firstBlock {
   width: 350px;
-  height: 402px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D4CFCF;
+  border-radius: 2px;
 }
 
 .instaName img {
-  width: 175px;
-  height: 51px;
+  width: 173.99px;
+  height: 50px;
   display: flex;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .TelEmailUser {
@@ -25,6 +32,7 @@ body {
   border: 1px solid #dbdbdb;
   border-radius: 3px;
   margin-bottom: 6px;
+  display: flex;
 }
 
 .passWord {
@@ -34,6 +42,8 @@ body {
   border: 1px solid #dbdbdb;
   border-radius: 3px;
 }
+
+
 
 .logInBtn button {
   width: 264px;
@@ -49,4 +59,109 @@ body {
   color: white;
   font-weight: 700;
 
+}
+
+.or span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  color: #100F0D;
+  font-weight: 400;
+  font-family: sans-serif;
+
+}
+
+.acessFacebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.acessFacebook a {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #385185;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 8px;
+
+}
+
+.forgetPassword a {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #102f72;
+  text-decoration: none;
+}
+
+.forgetPassword span {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+/*secondBlock*/
+
+.secondBlock {
+  width: 350px;
+  height:65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D4CFCF;
+  border-radius: 2px;
+  margin-top: 12px;
+}
+
+.secondBlock p {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.secondBlock a {
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #3aacf8;
+  
+}
+
+
+
+/*appDownload*/
+
+.appDownload {
+   width: 350px;
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.haveapp {
+ 
+  font-size: 14px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.googleMicrosoft {
+  display: flex;
+
+}
+
+.google img {
+  width: 134px;
+  height: 40px;
+  margin: 5px;
+
+}
+
+.microsoft img {
+  width: 110px;
+  height: 40px;
+  margin: 5px; 
 }
