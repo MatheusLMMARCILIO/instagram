@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.firstBlock {
+  width: 350px;
+  height: 402px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.instaName img {
+  width: 175px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+}
+
+.TelEmailUser {
+  width: 258px;
+  height: 36px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.passWord {
+    width: 258px;
+    height: 36px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+  }
+
+  
