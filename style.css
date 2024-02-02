@@ -1,130 +1,130 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 /*firstBlock*/
 
 .firstBlock {
-  width: 350px;
-  height: 450px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #D4CFCF;
-  border-radius: 2px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D4CFCF;
+    border-radius: 2px;
 }
 
 .instaName img {
-  width: 173.99px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 40px;
+    width: 173.99px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 .TelEmailUser {
-  width: 258px;
-  height: 34px;
-  background-color: #fafafa;
-  border: 1px solid #dbdbdb;
-  border-radius: 3px;
-  margin-bottom: 6px;
-  display: flex;
+    width: 258px;
+    height: 34px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 6px;
+    display: flex;
 }
 
 .passWord {
-  width: 258px;
-  height: 34px;
-  background-color: #fafafa;
-  border: 1px solid #dbdbdb;
-  border-radius: 3px;
+    width: 258px;
+    height: 34px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
 }
 
 
 
 .logInBtn button {
-  width: 264px;
-  height: 34px;
-  background-color: #4cb5f9;
-  border: 1px solid #4cb5f9;
-  border-radius: 8px;
-  margin-top: 16px;
+    width: 264px;
+    height: 34px;
+    background-color: #4cb5f9;
+    border: 1px solid #4cb5f9;
+    border-radius: 8px;
+    margin-top: 16px;
 }
 
 .logInBtn a {
-  text-decoration: none;
-  color: white;
-  font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
 
 }
 
 .or span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 25px;
-  color: #100F0D;
-  font-weight: 400;
-  font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    color: #100F0D;
+    font-weight: 400;
+    font-family: sans-serif;
 
 }
 
 .acessFacebook {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .acessFacebook a {
-  font-size: 14px;
-  font-family: sans-serif;
-  color: #385185;
-  font-weight: 600;
-  text-decoration: none;
-  margin-left: 8px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #385185;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 8px;
 
 }
 
 .forgetPassword a {
-  font-size: 12px;
-  font-family: sans-serif;
-  color: #102f72;
-  text-decoration: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #102f72;
+    text-decoration: none;
 }
 
 .forgetPassword span {
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
 }
 
 /*secondBlock*/
 
 .secondBlock {
-  width: 350px;
-  height:65px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #D4CFCF;
-  border-radius: 2px;
-  margin-top: 12px;
+    width: 350px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D4CFCF;
+    border-radius: 2px;
+    margin-top: 12px;
 }
 
 .secondBlock p {
-  font-size: 14px;
-  font-family: sans-serif;
+    font-size: 14px;
+    font-family: sans-serif;
 }
 
 .secondBlock a {
-  font-size: 14px;
-  text-decoration: none;
-  font-weight: 700;
-  color: #3aacf8;
-  
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #3aacf8;
+
 }
 
 
@@ -132,36 +132,139 @@ body {
 /*appDownload*/
 
 .appDownload {
-   width: 350px;
-  height: 95px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    width: 350px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .haveapp {
- 
-  font-size: 14px;
-  margin: 20px;
-  display: flex;
-  justify-content: center;
+
+    font-size: 14px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .googleMicrosoft {
-  display: flex;
+    display: flex;
 
 }
 
 .google img {
-  width: 134px;
-  height: 40px;
-  margin: 5px;
+    width: 134px;
+    height: 40px;
+    margin: 5px;
 
 }
 
 .microsoft img {
-  width: 110px;
-  height: 40px;
-  margin: 5px; 
+    width: 110px;
+    height: 40px;
+    margin: 5px;
+}
+
+/*creatFor*/
+
+.creatAccont {
+width: 350px;
+height: 660px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:  center;
+border: 1px solid #737373;
+}
+
+.creatFor span {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #737373;
+}
+
+.btnFacebook {
+    margin: 25px;
+}
+
+.btnFacebook svg {
+   height: 16px;
+   width: 16px;
+   margin-right: 5px;
+}
+
+.btnFacebook button {
+    width: 268px;
+    height: 34px;
+    background: #0095f6;
+border: 1px solid #0095f6;
+border-radius: 6px;
+}
+
+.btnFacebook a {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.our span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-bottom: 25px;
+    color: #737373;
+  
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.inputsCreatAccont input {
+    width: 258px;
+    height: 34px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 6px;
+    display: flex;
+}
+
+.knowMore p {
+ font-size: 12px;
+ font-family: sans-serif;
+ text-align: center;
+    color: #737373;
+}
+
+.knowMore a {
+   text-decoration: none;
+   color: #385185; 
+}
+
+.knowMore2 p {
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+       color: #737373;
+   }
+   
+   .knowMore2 a {
+      text-decoration: none;
+      color: #385185; 
+   }
+
+   .singin2 {
+    width: 350px;
+    height: 67px;
+    border: 1px solid #737373;
+display: flex;
+flex-direction: column;
+align-items: center;
+   
 }
