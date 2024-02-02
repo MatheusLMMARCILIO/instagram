@@ -169,13 +169,13 @@ body {
 /*creatFor*/
 
 .creatAccont {
-width: 350px;
-height: 660px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items:  center;
-border: 1px solid #737373;
+    width: 350px;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D4CFCF;
 }
 
 .creatFor span {
@@ -190,17 +190,17 @@ border: 1px solid #737373;
 }
 
 .btnFacebook svg {
-   height: 16px;
-   width: 16px;
-   margin-right: 5px;
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
 }
 
 .btnFacebook button {
     width: 268px;
     height: 34px;
     background: #0095f6;
-border: 1px solid #0095f6;
-border-radius: 6px;
+    border: 1px solid #0095f6;
+    border-radius: 6px;
 }
 
 .btnFacebook a {
@@ -218,9 +218,9 @@ border-radius: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
-  margin-bottom: 25px;
+    margin-bottom: 25px;
     color: #737373;
-  
+
     font-weight: 600;
     font-family: sans-serif;
 }
@@ -236,35 +236,65 @@ border-radius: 6px;
 }
 
 .knowMore p {
- font-size: 12px;
- font-family: sans-serif;
- text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
     color: #737373;
 }
 
 .knowMore a {
-   text-decoration: none;
-   color: #385185; 
+    text-decoration: none;
+    color: #385185;
 }
 
 .knowMore2 p {
     font-size: 12px;
     font-family: sans-serif;
     text-align: center;
-       color: #737373;
-   }
-   
-   .knowMore2 a {
-      text-decoration: none;
-      color: #385185; 
-   }
+    color: #737373;
+}
 
-   .singin2 {
+.knowMore2 a {
+    text-decoration: none;
+    color: #385185;
+}
+
+.singin2 {
     width: 350px;
     height: 67px;
-    border: 1px solid #737373;
-display: flex;
-flex-direction: column;
-align-items: center;
-   
+    border: 1px solid #D4CFCF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+}
+
+
+.singin2 a {
+font-size: 14px;
+font-family: sans-serif;
+font-weight: 700;
+color: #0095f6;
+text-decoration: none;
+
+}
+
+.singin2 p {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #100F0D;   
+}
+
+.appDownload {
+    margin-top: 10px ;
+}
+
+.allCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin: 50px;
 }
