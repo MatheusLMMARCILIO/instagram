@@ -330,21 +330,23 @@ justify-content: center;
 
 }
 
+
+
 .call {
   width: 50%;
   position: absolute;
   z-index: 1;
   display: flex;
   justify-content: flex-end;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 #slideshow {
   display: block;
   position: absolute;
   z-index: 2;
-  left: 650px;
-  top: 175px;
+  left: 627px;
+  top: 125px;
   width: 250px;
   height: 541px;
 }
